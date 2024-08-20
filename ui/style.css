@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+    url('BebasNeue-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#interaction-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.interaction {
+    position: absolute;
+    pointer-events: auto;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
